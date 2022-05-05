@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+  font-family: 'Red Hat Display', sans-serif !important;
+}
+
 html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+body{
+  height: 100%;
 }
 
 a {
@@ -11,6 +15,15 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+
+
+/* fieldset,
+input[aria-invalid="false"],
+input[aria-invalid="false"]:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: rgba(156, 163, 175, 1) !important;
 }
+input[aria-invalid="true"]{
+  border-color:rgb(221, 40, 8) !important;
+} */
